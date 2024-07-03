@@ -5,34 +5,35 @@ This project is a Contract Q&A Bot built using Streamlit, LangChain, and Pinecon
 ## Project Structure
 
 project-root/
-.
-├── app.py
+├── app.py # Main Streamlit app
 ├── data
-│   ├── long_contrcacts
-│   │   ├── Raptor Contract.docx
-│   │   └── Raptor Q&A2.docx
-│   └── short_contracts
-│       ├── Robinson_Advisory.docx
-│       └── Robinson_Q&A.docx
+│ ├── long_contrcacts
+│ │ ├── Raptor Contract.docx
+│ │ └── Raptor Q&A2.docx
+│ └── short_contracts
+│ ├── Robinson_Advisory.docx
+│ └── Robinson_Q&A.docx
 ├── evaluation
-│   ├── evaluator.py
-│   ├── __init__.py
-│   └── metrics.py
+│ ├── evaluator.py
+│ ├── init.py
+│ └── metrics.py
 ├── notebooks
-│   ├── evaluation.ipynb
-│   ├── generator_training.ipynb
-│   ├── RAG_evaluation_pipeline.ipynb
-│   ├── retriever_training.ipynb
-│   └── simple_RAG_pipeline.ipynb
+│ ├── evaluation.ipynb
+│ ├── generator_training.ipynb
+│ ├── RAG_evaluation_pipeline.ipynb
+│ ├── retriever_training.ipynb
+│ └── simple_RAG_pipeline.ipynb
 ├── README.md
 ├── requirements.txt
+├── temp
+│ ├── Robinson Advisory.docx
+│ └── vector_store_initialized
 └── utils
-    ├── generator.py
-    ├── __init__.py
-    ├── loader.py
-    ├── retriever.py
-    └── splitter.py
-
+├── generator.py
+├── init.py
+├── loader.py
+├── retriever.py
+└── splitter.py
 
 ## Getting Started
 
