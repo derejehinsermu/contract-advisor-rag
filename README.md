@@ -4,6 +4,7 @@ This project is a Contract Q&A Bot built using Streamlit, LangChain, and Pinecon
 
 ## Project Structure
 
+```
 project-root/
 ├── app.py # Main Streamlit app
 ├── data
@@ -35,6 +36,7 @@ project-root/
 ├── retriever.py
 └── splitter.py
 
+```
 ## Getting Started
 
 ### Prerequisites
@@ -54,16 +56,19 @@ project-root/
 
 3 **Install Requirements**
     While inside the virtual environment, install the project requirements:
-    ```sh
+    
+    ```sh    
     pip install -r requirements.txt
 
 
-Set up environment variables:
+4 **Set up environment variables:**
 Create a .env file in the root directory and add your OpenAI and Pinecone API keys:
 
-makefile
+
+```
 
 OPENAI_API_KEY=your_openai_api_key
 PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_API_ENV=your_pinecone_environment
 
+```
