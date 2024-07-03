@@ -1,0 +1,15 @@
+!pip install python-dotenv
+!pip install openai
+tiktoken
+pandas
+pinecone-client
+pdfplumber
+docx2txt
+pip install \
+    langchain-pinecone \
+    langchain-openai \
+    langchain-text-splitters \
+    langchain
+pip install flask
+flask_cors
+npm install axios
