@@ -6,36 +6,56 @@ This project is a Contract Q&A Bot built using Streamlit, LangChain, and Pinecon
 
 ```
 project-root/
-├── app.py # Main Streamlit app
+├.
+├── app.py
 ├── data
-│ ├── long_contrcacts
-│ │ ├── Raptor Contract.docx
-│ │ └── Raptor Q&A2.docx
-│ └── short_contracts
-│ ├── Robinson_Advisory.docx
-│ └── Robinson_Q&A.docx
-├── evaluation
-│ ├── evaluator.py
-│ ├── init.py
-│ └── metrics.py
+│   ├── long_contract
+│   │   ├── Raptor_Contract.docx
+│   │   └── Raptor Q&A2.docx
+│   └── short_contracts
+│       ├── Robinson_Advisory.docx
+│       └── Robinson_Q&A.docx
 ├── notebooks
-│ ├── evaluation.ipynb
-│ ├── generator_training.ipynb
-│ ├── RAG_evaluation_pipeline.ipynb
-│ ├── retriever_training.ipynb
-│ └── simple_RAG_pipeline.ipynb
+│   ├── evaluation_dataset.json
+│   ├── RAG_evaluation_pipeline.ipynb
+│   ├── simple_RAG_pipeline.ipynb
+│   ├── Visualize_qa_evaluate_advance_rag_pipeline.ipynb
+│   ├── Visualize_qa_evaluation_meduim_rag_pipeline.ipynb
+│   └── Visualize_simple_rag_pipeline.ipynb
 ├── README.md
 ├── requirements.txt
-├── temp
-│ ├── Robinson Advisory.docx
-│ └── vector_store_initialized
+├── scripts
+│   ├── advance_rag_pipeline
+│   │   ├── evaluation2.py
+│   │   ├── evaluator.py
+│   │   ├── generator.py
+│   │   ├── retrieval.py
+│   │   └── visualize.py
+│   ├── load_split_data
+│   │   └── load_split.py
+│   ├── medium_rag__pipeline
+│   │   ├── evaluator.py
+│   │   ├── generator.py
+│   │   └── retrieval.py
+│   ├── simple_pipeline
+│   │   ├── evaluator.py
+│   │   ├── generator.py
+│   │   └── retrieval.py
+│   ├── visualize_advance_rag_pipeline
+│   │   ├── generator.py
+│   │   └── retrieval.py
+│   ├── visualize_medium_rag_pipe_line
+│   │   ├── generator.py
+│   │   └── retrieval.py
+│   └── visualize_simple_rag_pipe_line
+│       ├── generator.py
+│       └── retrieval.py
 └── utils
-├── generator.py
-├── init.py
-├── loader.py
-├── retriever.py
-└── splitter.py
-
+    ├── generator.py
+    ├── __init__.py
+    ├── loader.py
+    ├── retriever.py
+    └── splitter.py
 ```
 ## Getting Started
 
@@ -72,3 +92,5 @@ PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_API_ENV=your_pinecone_environment
 
 ```
+https://www.mongodb.com/developer/products/atlas/rag-atlas-vector-search-langchain-openai/
+https://medium.com/@swethag04/rag-using-mongodb-atlas-vector-search-and-langchain-cba57b67fe29
