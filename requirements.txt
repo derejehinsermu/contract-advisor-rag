@@ -13,3 +13,6 @@ pip install \
 pip install flask
 flask_cors
 npm install axios
+pip install umap-learn pymongo tqdm matplotlib python-dotenv
+sentence_transformers
+pip install ragas==0.0.22
