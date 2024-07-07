@@ -85,12 +85,3 @@ project-root/
 Create a .env file in the root directory and add your OpenAI and Pinecone API keys:
 
 
-```
-
-OPENAI_API_KEY=your_openai_api_key
-PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_API_ENV=your_pinecone_environment
-
-```
-https://www.mongodb.com/developer/products/atlas/rag-atlas-vector-search-langchain-openai/
-https://medium.com/@swethag04/rag-using-mongodb-atlas-vector-search-and-langchain-cba57b67fe29
