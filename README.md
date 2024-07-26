@@ -46,13 +46,14 @@ This project builds a Contract Q&A Bot that allows users to interact with and as
    git clone https://github.com/derejehinsermu/contract-advisor-rag.git
 
 2. **Create and Activate a Virtual Environment**
+   
     Navigate to the root directory of the project and create a virtual environment named 'venv', then activate it:
     ```sh
     cd contract-advisor-rag.git
     python -m venv venv  | virtualenv venv
     source venv/bin/activate
 
-3. **Install Requirements**
+4. **Install Requirements**
     While inside the virtual environment, install the project requirements:
     
     pip install -r requirements.txt
