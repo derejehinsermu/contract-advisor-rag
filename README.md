@@ -64,7 +64,8 @@ To run the Contract Q&A Bot:
 
 1. **Start the Streamlit App:**
    ```bash
-   streamlit run app.py
+   cd app
+   streamlit run stream_app.py
 
 
 2. **Open your browser and navigate to http://localhost:8501 to interact with the bot.**
